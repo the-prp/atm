@@ -40,7 +40,9 @@ public class BankingCLI {
 
                         Scanner input = new Scanner(System.in);
 
-                        String name = input.next();
+                        String name = "";
+
+                        name += input.nextLine();
 
                         System.out.println("Please enter a 4 Digit PIN:");
 
